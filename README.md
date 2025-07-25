@@ -1,16 +1,4 @@
-🔹 1-қадам: VS Code ішінде жаңа файл аш
-VS Code-ты ашып тұрсың.
 
-Сол жақ файлдар панелінде src пен қатар тұрған жерде жаңа файл жасайсың:
-
-Файл аты: README.md
-
-🔹 2-қадам: Кодты қою
-Жаңа ашылған README.md файлына төмендегі кодты толығымен көшіріп қой:
-
-md
-Копировать
-Редактировать
 # WB Vue SPA App
 
 This is a Single Page Application (SPA) built with **Vue 3**, **Vite**, and **Chart.js**.  
@@ -33,9 +21,7 @@ src/
 ├── router/ # Vue Router config
 └── App.vue # Main layout and navigation
 
-sql
-Копировать
-Редактировать
+
 
 ## 🚀 Features
 
@@ -53,15 +39,12 @@ git clone https://github.com/Nura1806toktar/wb-vue-app2.git
 cd wb-vue-app2
 Install dependencies:
 
-bash
-Копировать
-Редактировать
+
 npm install
 Run the dev server:
 
 bash
-Копировать
-Редактировать
+
 npm run dev
 Open http://localhost:5173 in your browser.
 
@@ -69,8 +52,7 @@ Open http://localhost:5173 in your browser.
 All API calls go through src/api/index.js. Make sure your API base URL and key are set up correctly:
 
 js
-Копировать
-Редактировать
+
 const API_BASE = 'http://your-server-ip:port/api';
 const API_KEY = 'your-api-key';
 🖼 Screenshots
@@ -81,19 +63,6 @@ Made with ❤️ by @Nura1806toktar
 
 This project is part of a WB analytics dashboard for internal use or demo purposes.
 
-yaml
-Копировать
-Редактировать
 
----
 
-### 🔹 **3-қадам: Git арқылы жүктеу**
-
-Терминалға мына 3 команданы кезекпен жаз:
-
-```bash
-git add README.md
-git commit -m "Add README file"
-git push origin master
-Егер main емес master деп аталып тұрса, main орнына master жаз.
 
